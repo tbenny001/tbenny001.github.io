@@ -1,0 +1,11 @@
+body {
+        padding-top: 70px;
+}
+
+.logo {
+    height: 2rem;
+}
+
+ul li {
+    list-style-type: none;
+}
