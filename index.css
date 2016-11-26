@@ -1,11 +1,26 @@
-body {
-        padding-top: 70px;
+.container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
-.logo {
-    height: 2rem;
+#photo {
+    background-color: #718099;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+#pic-holder {
+    text-align: center;
 }
 
 ul li {
     list-style-type: none;
+}
+
+#contact-info .fa {
+    font-size: 3rem;
+    float: right;
+    cursor: pointer;
 }
