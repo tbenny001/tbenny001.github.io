@@ -15,11 +15,18 @@ h1 {
     text-align: center;
 }
 
+ul {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
 ul li {
+    width: 49%;
     list-style-type: none;
 }
 
-#contact-info .fa {
+#contact-info a {
     font-size: 3rem;
     float: right;
     cursor: pointer;
