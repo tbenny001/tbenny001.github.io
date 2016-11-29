@@ -14,12 +14,25 @@
     border-radius: 7px;
 }
 
-h1 {
-    margin-bottom: 2rem;
+#bio {
+    display: flex;
+    flex-direction: column;
 }
 
-#pic-holder {
-    text-align: center;
+#bio p {
+    align-self: center;
+}
+
+#bio img {
+    transition: transform .5s ease-in-out;
+}
+
+#bio img:hover {
+    transform: scale(2);
+}
+
+h1 {
+    margin-bottom: 2rem;
 }
 
 ul {
