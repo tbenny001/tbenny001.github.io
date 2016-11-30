@@ -20,15 +20,29 @@
 }
 
 #bio p {
+    width: 100rem;
     align-self: center;
 }
 
-#bio img {
-    transition: transform .5s ease-in-out;
+#edu {
+    display: flex;
+    flex-direction: column;
 }
 
-#bio img:hover {
-    transform: scale(2);
+#edu h1 {
+    align-self: flex-start;
+}
+
+#edu img {
+    height: 60px;
+    width: 60px;
+    transition: transform .5s ease-in-out;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#edu img:hover {
+    transform: scale(1.2);
 }
 
 h1 {
@@ -36,9 +50,9 @@ h1 {
 }
 
 ul {
-        display:flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -50,4 +64,5 @@ ul li {
     font-size: 3rem;
     float: right;
     cursor: pointer;
+    margin-left: 1rem;
 }
