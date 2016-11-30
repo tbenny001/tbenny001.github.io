@@ -3,6 +3,11 @@
     padding-bottom: 4rem;
 }
 
+li {
+    width: 49%;
+    list-style-type: none;
+}
+
 #photo {
     background-color: #718099;
     display: flex;
@@ -14,7 +19,7 @@
     border-radius: 7px;
 }
 
-#bio {
+#bio, #edu {
     display: flex;
     flex-direction: column;
 }
@@ -24,21 +29,21 @@
     align-self: center;
 }
 
-#edu {
-    display: flex;
-    flex-direction: column;
-}
-
 #edu h1 {
     align-self: flex-start;
+}
+
+#edu li {
+    display: flex;
+    justify-content: space-between;
 }
 
 #edu img {
     height: 60px;
     width: 60px;
-    transition: transform .5s ease-in-out;
+    transition: transform .3s ease-in-out;
     border-radius: 50%;
-    object-fit: cover;
+    margin-right: 2rem;
 }
 
 #edu img:hover {
@@ -55,10 +60,6 @@ ul {
     flex-wrap: wrap;
 }
 
-ul li {
-    width: 49%;
-    list-style-type: none;
-}
 
 #contact-info a {
     font-size: 3rem;
