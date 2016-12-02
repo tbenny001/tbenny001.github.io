@@ -28,11 +28,6 @@ li {
     flex-direction: column;
 }
 
-#bio p {
-    width: 100rem;
-    align-self: center;
-}
-
 #edu h1 {
     align-self: flex-start;
 }
