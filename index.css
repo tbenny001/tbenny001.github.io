@@ -3,6 +3,10 @@
     padding-bottom: 4rem;
 }
 
+p {
+        font-size: 20px;
+}
+
 li {
     width: 49%;
     list-style-type: none;
